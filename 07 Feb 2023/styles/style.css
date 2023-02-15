@@ -1,0 +1,22 @@
+body {
+    background-color:chartreuse;
+    font-size: 50px;
+}
+
+section {
+border: 1px solid blue;
+width: 80vw;
+height: 60vh;
+/* font-size: 20px; */
+}
+
+main {
+border: 1px dashed red;
+width: 50vw;
+height: 50vh;
+font-size: 2rem;
+}
+
+.Sample2 {
+    font-size: px;
+}
