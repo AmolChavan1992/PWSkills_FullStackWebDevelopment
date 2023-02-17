@@ -1,0 +1,30 @@
+body {
+    background-color: beige;
+}
+
+.container {
+    display: flex;
+}
+
+.box {
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    margin: 2px;
+}
+
+.box1 {
+    background-color: red;
+}
+
+.box3 {
+    background-color: yellow;
+}
+
+@media screen and (min-width:768px) and (max-width: 1000px) {
+    .container {
+        display: none;
+        /* flex-direction: column; */
+    }
+    
+}
