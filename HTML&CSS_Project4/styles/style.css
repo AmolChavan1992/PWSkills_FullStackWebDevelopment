@@ -1,0 +1,40 @@
+body {
+    background-color: #7FFFD5;
+    text-align: center;
+}
+
+@media screen and (max-width:1440px) {
+    body {
+        background-color: #208B21;
+    }
+    .screen_size::after {
+        content: "Screen size : 1440px";
+    }
+}
+
+@media screen and (max-width:1024px) {
+    body {
+        background-color: #B1882F;
+    }
+    .screen_size::after {
+        content: "Screen size : 1024px";
+    }
+}
+
+@media screen and (max-width:768px) {
+    body {
+        background-color: #75FBFD;
+    }
+    .screen_size::after {
+        content: "Screen size : 768px";
+    }
+}
+
+@media screen and (max-width:425px) {
+    body {
+        background-color: #CA3142;
+    }
+    .screen_size::after {
+        content: "Screen size : 425px";
+    }
+}
