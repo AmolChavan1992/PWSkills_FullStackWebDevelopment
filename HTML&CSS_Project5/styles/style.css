@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #111827;
+}
+
+body {
+    padding: 5px 10px;
+    color: #fff;
+}
+
+/* Header */
+.hamburger-logo {
+    display: none;
+    width: 10px;
+}
+
+header nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 5px 0;
+}
+
+ol {
+    display: flex;
+    gap: 5px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 10px;
+    padding: 5px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+a.focus:link {
+    background-color: #6464E0;
+}
+
+/* Main section */
+/* Upper section */
+.waving-hand-img {
+    width: 20px;
+    height: 20px;
+}
+
+.pc-image-img {
+    width: 200px;
+    height: 150px;
+}
+
+section {
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.upper-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote {
+    font-size: 14px;
+    font-weight: 600;
+    vertical-align: middle;
+}
+
+.dev-name {
+    text-transform: capitalize;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.dev-position {
+    color: #93944b;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.upper-left-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.upper-left-section-title {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+/* Middle part */
+.project-img {
+    width: 150px;
+    height: 150px;
+}
+
+.middle-section {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+}
+
+.middle-section-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+    text-decoration-color: #0406c2;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
+    margin-bottom: 7px;
+}
+
+.middle-section-data {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.project-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-name {
+    font-size: 12px;
+}
+
+/* Bottom part */
+.contact-icon {
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+}
+
+.bottom-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+    section {
+        width: 60vw;
+    }
+
+    .upper-section {
+        flex-direction: column;
+    }
+
+    .upper-left-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .upper_right_section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header nav ol {
+        display: none;
+    }
+
+    .hamburger-logo {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    header nav {
+        align-items: flex-start;
+    }
+}
