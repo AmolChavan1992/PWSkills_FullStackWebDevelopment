@@ -161,7 +161,7 @@ nav ul li a {
     font-size: 13px;
     width: 30%;
     margin: 0;
-    padding:0 20px;
+    padding: 0 20px;
 }
 
 .specification-list-items div {
@@ -335,7 +335,7 @@ nav ul li a {
 .product-block-image {
     width: 100px;
     background-color: transparent;
-    top:-50px;
+    top: -50px;
     position: relative;
 }
 
@@ -388,7 +388,8 @@ nav ul li a {
     justify-content: space-between;
 }
 
-.beats-logo, .up-arrow {
+.beats-logo,
+.up-arrow {
     width: 25px;
     height: 25px;
     margin: 5px 5px;
