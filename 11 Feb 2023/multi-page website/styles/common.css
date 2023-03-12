@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+body {
+    background-color: #f0f4f5;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+li {
+    list-style: none;
+}
+
+header {
+    margin: 0 10vw;
+    margin-top: 1.5vw;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav img {
+    width: 100px;
+    height: 30px;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
