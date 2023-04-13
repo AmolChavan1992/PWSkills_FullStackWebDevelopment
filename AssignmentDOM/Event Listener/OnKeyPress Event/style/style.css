@@ -1,0 +1,13 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width: fit-content;
+    height: fit-content;
+    padding: 5px 10px;
+}

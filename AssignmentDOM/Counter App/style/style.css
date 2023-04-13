@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+section {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    width: fit-content;
+    height: fit-content;
+    padding: 5px 10px;
+}
+
+div {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+
+}
+
+span {
+    border: 1px solid black;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
