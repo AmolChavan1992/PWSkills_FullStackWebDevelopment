@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.rect {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: 1px solid;
+    left: 0px;
+    top: 0px;
+    position: relative;
+}
