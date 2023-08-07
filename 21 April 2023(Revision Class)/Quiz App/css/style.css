@@ -1,0 +1,17 @@
+body {
+    background-color: black;
+    color: azure;
+}
+
+button {
+    width: 100px;
+    height: 25px;
+    margin-top: 20px;
+    background-color: cyan;
+    border: 0px;
+    border-radius: 5px;
+}
+
+#resultContainer {
+    margin-top: 20px;
+}
