@@ -1,0 +1,6 @@
+Node.js uses the “Single Threaded Event Loop” architecture to handle multiple concurrent clients.
+Advantages: 
+1. Scalable web app development.
+2. High Performace.
+3. Cost effective.
+4. Powerful data processing.
