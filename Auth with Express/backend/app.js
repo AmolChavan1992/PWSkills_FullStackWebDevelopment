@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const authRouters = require('./router/authRouter');
 const databaseConnect = require('./config/databaseConfig');
-const cookieParser = require("cookie-parser")
+const cookieParser = require("cookie-parser");
 const cors = require("cors");
 
 databaseConnect();
